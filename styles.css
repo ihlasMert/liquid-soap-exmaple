@@ -2,18 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 .container {
   width: 100%;
   height: 100vh;
-  background-color: bisque;
+  background-color: #182747;
 }
 
 .box {
   width: 40%;
   height: 30%;
-  background: #8de9eb;
+  background: #fff5e4;
   position: absolute;
   top: 50%;
   left: 30%;
@@ -32,7 +33,7 @@
 .shad {
   width: 17.5%;
   height: 50%;
-  background: violet;
+  background: #562b08;
   position: absolute;
   top: 40%;
   left: 41.2%;
@@ -40,32 +41,52 @@
   opacity: 0.4;
   filter: blur(2px);
 }
-.bas{
-    width: 12%;
-    height: 5%;
-    background-color: #8F5A40;
-    position: absolute;
-    top: 25%;
-    left: 44%;
-    border-radius: 50px 90px 90px 50px;
-    transform: rotate(90deg);
-    z-index: 1;
+.bas {
+  width: 12%;
+  height: 5%;
+  background-color: #8f5a40;
+  position: absolute;
+  top: 25%;
+  left: 44%;
+  border-radius: 50px 90px 90px 50px;
+  transform: rotate(90deg);
+  z-index: 1;
 }
-.knopka{
-    width: 8%;
-    height: 5%;
-    background-color: #8F5A40;
-    position: absolute;
-    top: 14%;
-    left: 43.5%; 
-    transform: rotate(1deg);
-    overflow: hidden;
+.knopka {
+  width: 8%;
+  height: 5%;
+  background-color: #8f5a40;
+  position: absolute;
+  top: 14%;
+  left: 43.5%;
+  transform: rotate(1deg);
+  overflow: hidden;
+  border-radius: 23px 80px;
 }
-.uc{
-    width: 8%;
-    height: 5%;
-    background-color: #8F5A40;
+.uc {
+  width: 1%;
+  height: 5%;
+  background-color: #8f5a40;
+  position: absolute;
+  top: 14%;
+  left: 42%;
+  border-radius: 12px 10px 12px 10px;
+  transform: rotate(90deg);
+}
+h1 {
+  background-color: #fff5e4;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  z-index: 1;
+}
+h2{
+    text-align: center;
     position: absolute;
-    top: 14%;
-    left: 43.5%;  
+    background-color: #fff5e4;
+    top: 53.4%;
+    left: 46%;
+    z-index: 1;   
+    text-overflow: clip;
 }
